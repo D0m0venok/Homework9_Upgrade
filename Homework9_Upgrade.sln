@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game.csproj", "{f1543f6a-3ec2-ff4e-0bb1-961548105775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer", "Sirenix.OdinInspector.CompatibilityLayer.csproj", "{0442fb4f-cfd7-37bc-8f9b-a58e99419452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer.Editor", "Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj", "{b57c41ce-7102-cb2b-cf3c-3c64ca8854fa}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.Modules.UnityMathematics", "Sirenix.OdinInspector.Modules.UnityMathematics.csproj", "{b4c51c8b-8bca-6033-b210-a0e3eb806e7f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{d451f321-bbf5-75db-31ae-f38fbf6e6c10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{7467509c-a510-44bb-161b-f4823654ad2e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{09f99860-1a60-3b5a-5eb5-5ac025d8190c}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{f1543f6a-3ec2-ff4e-0bb1-961548105775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f1543f6a-3ec2-ff4e-0bb1-961548105775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0442fb4f-cfd7-37bc-8f9b-a58e99419452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0442fb4f-cfd7-37bc-8f9b-a58e99419452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b57c41ce-7102-cb2b-cf3c-3c64ca8854fa}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b57c41ce-7102-cb2b-cf3c-3c64ca8854fa}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b4c51c8b-8bca-6033-b210-a0e3eb806e7f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b4c51c8b-8bca-6033-b210-a0e3eb806e7f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d451f321-bbf5-75db-31ae-f38fbf6e6c10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d451f321-bbf5-75db-31ae-f38fbf6e6c10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7467509c-a510-44bb-161b-f4823654ad2e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7467509c-a510-44bb-161b-f4823654ad2e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09f99860-1a60-3b5a-5eb5-5ac025d8190c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09f99860-1a60-3b5a-5eb5-5ac025d8190c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

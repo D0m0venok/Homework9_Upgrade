@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898bf365619c4f3d87f5fa1b5c3f6052, type: 3}
+  m_Name: VolumeUnloadingAreaUpgradeConfig
+  m_EditorClassIdentifier: 
+  id: VolumeUnloadingAreaUpgrade
+  maxLevel: 10
+  dependenceUpgradesData:
+  - _config: {fileID: 11400000, guid: 6e1eb6923504c7645b065d3fc0feab05, type: 2}
+    _levelDiff: 1
+  upgradeTable:
+    _startValue: 5
+    _endValue: 10
+    _step: 0.56
+    _table:
+    - 5
+    - 5.56
+    - 6.12
+    - 6.68
+    - 7.24
+    - 7.8
+    - 8.36
+    - 8.92
+    - 9.48
+    - 10

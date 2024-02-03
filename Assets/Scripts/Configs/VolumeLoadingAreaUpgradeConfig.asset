@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cc4e7f97e3d460ea3c51a46736aef63, type: 3}
+  m_Name: VolumeLoadingAreaUpgradeConfig
+  m_EditorClassIdentifier: 
+  id: VolumeLoadingAreaUpgrade
+  maxLevel: 10
+  priceTable:
+    basePrice: 10
+    levels: 00000000140000001e00000028000000320000003c00000046000000500000005a00000064000000
+  upgradeTable:
+    _startValue: 5
+    _endValue: 10
+    _step: 0.56
+    _table:
+    - 5
+    - 5.56
+    - 6.12
+    - 6.68
+    - 7.24
+    - 7.8
+    - 8.36
+    - 8.92
+    - 9.48
+    - 10

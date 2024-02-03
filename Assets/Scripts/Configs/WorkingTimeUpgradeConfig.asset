@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7182088b806647c299eade15f10339dc, type: 3}
+  m_Name: WorkingTimeUpgradeConfig
+  m_EditorClassIdentifier: 
+  id: WorkingTimeUpgrade
+  maxLevel: 10
+  dependenceUpgradesData:
+  - _config: {fileID: 11400000, guid: eb261e4d3f1bcea47b6cef36f25fdee9, type: 2}
+    _levelDiff: 1
+  - _config: {fileID: 11400000, guid: 6e1eb6923504c7645b065d3fc0feab05, type: 2}
+    _levelDiff: 2
+  upgradeTable:
+    _startValue: 10
+    _endValue: 5
+    _step: -0.56
+    _table:
+    - 10
+    - 9.44
+    - 8.88
+    - 8.32
+    - 7.76
+    - 7.2
+    - 6.64
+    - 6.08
+    - 5.52
+    - 5
