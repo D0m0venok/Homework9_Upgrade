@@ -2,8 +2,6 @@ namespace Sample
 {
     public sealed class VolumeUnloadingAreaUpgrade : Upgrade, IConstruct
     {
-        private const string Name = nameof(VolumeUnloadingAreaUpgrade);
-        
         private UpgradeTable _table;
         private PlayerStats _playerStats;
 
@@ -24,7 +22,7 @@ namespace Sample
         private void SetLevel(int level)
         {
             var value = _table.GetValue(level);
-            _playerStats.SetStat(Name, value);
+            _playerStats.SetStat(Id, value);
         }
     }
 }
